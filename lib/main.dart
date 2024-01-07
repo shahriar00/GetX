@@ -1,13 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/get_navigation.dart';
-import 'package:getx/state%20management/color.dart';
-import 'package:getx/state%20management/counter.dart';
-import 'package:getx/state%20management/image.dart';
-import 'package:getx/state%20management/list.dart';
-import 'package:getx/state%20management/switch.dart';
-import 'package:getx/view/homepage.dart';
+import 'package:getx/Flutter%20GetX/show_snackbar.dart';
 import 'package:getx/view/localization.dart';
-import 'package:getx/view/navigation.dart';
 
 import 'APIs/login.dart';
 
@@ -35,7 +29,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      home: logindata(),
+      home: const ShowSnackBar(),
 
       // Get page route...........
 
