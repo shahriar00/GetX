@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx/APIs/logincontroller.dart';
 
+
 class logindata extends StatefulWidget {
   const logindata({super.key});
 
