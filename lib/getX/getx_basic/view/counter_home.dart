@@ -5,6 +5,7 @@ import 'package:getx/getX/getx_basic/controller/counter_controller.dart';
 class CounterHome extends GetView<CounterController> {
   CounterHome({super.key});
   //final dependency = Get.put(CounterController());
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
