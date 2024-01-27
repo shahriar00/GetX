@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 import 'package:getx/Flutter%20GetX/show_snackbar.dart';
+import 'package:getx/getX/getx_basic/routes/app_routes.dart';
+import 'package:getx/getX/getx_basic/view/counter_home.dart';
 import 'package:getx/view/localization.dart';
 
 import 'APIs/login.dart';
@@ -29,15 +31,17 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      home: const ShowSnackBar(),
+      initialRoute: AppRoutes.initialRoute,
+      getPages: AppRoutes.routes,
+     // home:  CounterHome(),
 
       // Get page route...........
 
-      getPages: [
-        // GetPage(name: '/', page:()=> counter()),
-        // GetPage(name: '/', page: () => homepage()),
-       // GetPage(name: '/navigation', page: () => navigation())
-      ],
+      // getPages: [
+      //   // GetPage(name: '/', page:()=> counter()),
+      //   // GetPage(name: '/', page: () => homepage()),
+      //  // GetPage(name: '/navigation', page: () => navigation())
+      // ],
 
 
 
