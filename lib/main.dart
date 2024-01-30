@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/get_navigation.dart';
+import 'package:getx/Flutter%20GetX/show_dialog.dart';
 import 'package:getx/Flutter%20GetX/show_snackbar.dart';
 import 'package:getx/getX/getx_basic/routes/app_routes.dart';
 import 'package:getx/getX/getx_basic/view/counter_home.dart';
@@ -30,9 +31,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
         useMaterial3: true,
       ),
-      //home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      initialRoute: AppRoutes.initialRoute,
-      getPages: AppRoutes.routes,
+      // //home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      // initialRoute: AppRoutes.initialRoute,
+      // getPages: AppRoutes.routes,
      // home:  CounterHome(),
 
       // Get page route...........
@@ -43,7 +44,7 @@ class MyApp extends StatelessWidget {
       //  // GetPage(name: '/navigation', page: () => navigation())
       // ],
 
-
+home: ShowDialogue(),
 
     );
   }
